@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: header;
+    src: url(fonts/Arcitectura-PZB.ttf);
+}
+
+@font-face {
+    font-family: header2;
+    src: url(fonts/NEWACADEMY.ttf);
+}
+
+/*** Index Style START ***/
+
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar {
+    margin: 0;
+    text-align: center;
+    background-color: black;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    line-height: 40px;
+    font-family: header2;
+}
+
+header p {
+    font-size: small;
+    margin: 0;
+    text-align: center;
+    line-height: 40px;
+}
+
+.x {
+    color: red;
+}
+
+.under {
+    text-decoration: underline 2px red;
+}
+
+.main1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    text-align: center;
+    height: 300px;
+    padding: 10px;
+    column-gap: 10px;
+}
+
+.box1 {
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.box2 {
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+
+.box3 {
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+
+.box4 {
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.main2 {
+    margin: auto;
+    text-align: center;
+    background-color: bisque;
+    width: 50%;
+    margin-top: 30px;
+    height: 200px;
+    padding: 10px;
+}
+
+.footertext {
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    height: 100px;
+    margin-top: 30px;
+    color: white;
+    line-height: 100px;
+}
+
+
