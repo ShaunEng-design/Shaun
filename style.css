@@ -101,8 +101,6 @@ header p {
     padding: 20px;
     column-gap: 10px;
     width: 100%;
-    background-image: url(images/design.jpg);
-    background-attachment: fixed;
 }
 
 .box1 {
@@ -204,7 +202,8 @@ header p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
-    background-color: black;
+    background-image: url(images/design.jpg);
+    background-attachment: fixed;
 }
 
 .footertext {
