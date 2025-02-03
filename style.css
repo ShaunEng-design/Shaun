@@ -102,7 +102,7 @@ header p {
     column-gap: 10px;
     width: 100%;
     background-image: url(images/design.jpg);
-    backgroud-attachment: fixed;
+    backgroud-attachment: fixed !important;
 }
 
 .box1 {
