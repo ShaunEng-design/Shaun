@@ -183,7 +183,6 @@ nav li:hover {
 .btn:hover {
   cursor: pointer;
   transform: scale(1.1)
-
 }
 
 .whyussectionhead {
@@ -241,6 +240,12 @@ nav li:hover {
   left: 50%;
   translate: -50%;
   margin-top: 30px;
+  transition: 0.2s;
+}
+
+.pricebtn:hover {
+  cursor: pointer;
+  transform: scale(1.1)
 }
 
 .portfoliobtn {
@@ -254,6 +259,12 @@ nav li:hover {
   left: 50%;
   translate: -50%;
   margin-top: 30px;
+  transition: 0.2s;
+}
+
+.portfoliobtn:hover {
+  cursor: pointer;
+  transform: scale(1.1)
 }
 
 .herowrapper2 {
