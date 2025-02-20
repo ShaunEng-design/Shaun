@@ -173,7 +173,7 @@ nav li:hover {
 
 .btn {
     padding: 10px;
-    border: 1px solid black;
+    border: none;
     margin-top: 20px;
     border-radius: 5px;
     background-color: #37b24d;
@@ -183,7 +183,7 @@ nav li:hover {
 
 .btn:hover {
   cursor: pointer;
-  transform: scale(1.1)
+  transform: translateY(-5px)
 }
 
 .whyussectionhead {
@@ -232,7 +232,7 @@ nav li:hover {
 
 .pricebtn {
   padding: 10px;
-  border: 1px solid black;
+  border: none;
   margin-top: 20px;
   border-radius: 5px;
   background-color: #37b24d;
@@ -246,12 +246,12 @@ nav li:hover {
 
 .pricebtn:hover {
   cursor: pointer;
-  transform: scale(1.1)
+  transform: translateY(-5px);
 }
 
 .portfoliobtn {
   padding: 10px;
-  border: 1px solid black;
+  border: none;
   margin-top: 20px;
   border-radius: 5px;
   background-color: #37b24d;
@@ -265,7 +265,7 @@ nav li:hover {
 
 .portfoliobtn:hover {
   cursor: pointer;
-  transform: scale(1.1)
+  transform: translateY(-5px);
 }
 
 .herowrapper2 {
@@ -366,6 +366,61 @@ nav li:hover {
 .visitbtn:hover {
   cursor: pointer;
 }
+
+/* Pricing PAGE */
+
+.pricingcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.item {
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgb(145, 145, 145);
+}
+
+.priceheading {
+  color: #087f5b;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.pricesubheading {
+  color: rgb(93, 94, 93);
+  font-size: 1rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.pricedetails ul {
+  list-style-position: inside;
+}
+
+.price {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.itembest {
+  padding: 10px;
+  background-color: #087f5b4f;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(145, 145, 145);
+}
+
+.itembest .priceheading {
+  text-decoration: underline;
+}
+
+.popular {
+  text-align: center;
+  color: #087f5b;
+  margin-top: 30px;
+  font-size: 2rem;
+}
+
 
 /* Media Queries for screens smaller than 500px */
 
