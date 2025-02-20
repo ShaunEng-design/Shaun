@@ -9,7 +9,8 @@ Secondary Color - #37b24d
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: poppins
+    font-family: poppins;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -182,10 +183,8 @@ nav li:hover {
 
 .btn:hover {
   cursor: pointer;
-  transform: translateX(10px);
+  transform: scale(1.1)
 }
-
-
 
 .whyussectionhead {
   text-align: center;
@@ -247,7 +246,7 @@ nav li:hover {
 
 .pricebtn:hover {
   cursor: pointer;
-  transform: translateX(10px)
+  transform: scale(1.1)
 }
 
 .portfoliobtn {
@@ -266,56 +265,12 @@ nav li:hover {
 
 .portfoliobtn:hover {
   cursor: pointer;
-  transform: translateX(10px)
-}
-
-.featureiconarrow {
-  width: 15px;
-  height: 15px;
-  stroke: white;
-  margin-left: 5px;
-  position: relative;
-  top: 3px;
-}
-
-.offerbtn {
-  padding: 10px;
-  border: 1px solid black;
-  margin-top: 20px;
-  border-radius: 5px;
-  background-color: #37b24d;
-  color: white;
-  position: relative;
-  left: 50%;
-  translate: -50%;
-  margin-top: 30px;
-  transition: 0.2s;
-}
-
-.list {
-  display: none;
-  transition: transform 1s ease;
-}
-
-.displaytext {
-  position: relative;
-}
-
-.displaytext:hover .list {
-  display: block;
-  position: absolute;
-  top: 100px;
-  left: 200px;
-  background-color: #087f5b;
-  list-style: none;
-  padding: 10px;
-  border-radius: 5px;
-  transform: scale(1.2);
+  transform: scale(1.1)
 }
 
 .herowrapper2 {
     width: 100%;
-    background-image: url(images/her2.jpg);
+    background-image: url(images/hero2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 90%;
@@ -341,8 +296,6 @@ nav li:hover {
 .herowrapper2text h3 {
   color: white;
 }
-
-
 
 /* Portfolio PAGE */
 
