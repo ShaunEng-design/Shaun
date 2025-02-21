@@ -721,7 +721,7 @@ header i {
  nav {
   width: 90%;
   position: relative;
-  top: 0;
+  top: -10;
   left: 20%;
  }
 
@@ -759,7 +759,7 @@ nav li:hover {
       border-radius: 15px;
       text-align: center;
       margin-top: 255px;
-      margin-left: -140px;
+      margin-left: -130px;
   }
 
   .btn {
@@ -830,7 +830,7 @@ nav li:hover {
 
   .herowrapper2text {
     width: 60%;
-    height: 400px;
+    height: 470px;
     top: 50%;
     left: 10%;
     text-align: left;
