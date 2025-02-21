@@ -2,8 +2,11 @@
 
 Main Color - #087f5b
 Secondary Color - #37b24d
+Text Color - #5c5c5c
 
 */
+
+/* DEFAULT STYLE START */
 
 * {
     margin: 0;
@@ -18,8 +21,10 @@ Secondary Color - #37b24d
     src: url(fonts/Poppins-Regular.ttf);
 }
 
+/* DEFAULT STYLE END */
 
-/* Footer Styles */
+
+/* Footer Styles START */
 
 footer {
   background-color: #000000a1;
@@ -48,6 +53,10 @@ footer p {
   font-size: 14px;
   color: #ccc;
 }
+
+/* Footer Styles END */
+
+/* Index Page START */
 
 header img {
     width: auto;
@@ -171,6 +180,10 @@ nav li:hover {
     line-height: 1.8;
 }
 
+.herotext p {
+  color: #5c5c5c;
+}
+
 .btn {
     padding: 10px;
     border: none;
@@ -218,7 +231,7 @@ nav li:hover {
   margin-left: 17px;
   margin-top: 20px;
   width: 70%;
-  color: rgb(92, 92, 92);
+  color: #5c5c5c;
   line-height: 1.8;
 }
 
@@ -297,7 +310,9 @@ nav li:hover {
   color: white;
 }
 
-/* Portfolio PAGE */
+/* Index Page END */
+
+/* Portfolio PAGE START */
 
 .projectsectionhead {
   padding: 15px;
@@ -367,7 +382,26 @@ nav li:hover {
   cursor: pointer;
 }
 
-/* Pricing PAGE */
+/* Portfolio PAGE END */
+
+/* Pricing PAGE START */
+
+.pricingguide {
+  margin: auto;
+  width: 50%;
+  margin-top: 64px;
+  margin-bottom: 100px;
+}
+
+.pricingguide h2 {
+  text-align: center;
+  color: #087f5b;
+  font-size: 2rem;
+}
+
+.pricingguide p {
+  color: #5c5c5c;
+}
 
 .pricingcontainer {
   display: flex;
@@ -383,7 +417,7 @@ nav li:hover {
 .priceheading {
   color: #087f5b;
   font-size: 1.8rem;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -392,15 +426,19 @@ nav li:hover {
   font-size: 1rem;
   margin-bottom: 10px;
   text-align: center;
+  font-weight: 600;
 }
 
 .pricedetails ul {
   list-style-position: inside;
+  line-height: 1.8;
 }
 
 .price {
   margin-top: 20px;
   text-align: center;
+  color: #37b24d;
+  font-size: 2rem;
 }
 
 .itembest {
@@ -419,7 +457,232 @@ nav li:hover {
   color: #087f5b;
   margin-top: 30px;
   font-size: 2rem;
+  background-color: white;
+  border-radius: 10px;
 }
+
+.itemmore {
+  margin: auto;
+  width: 20%;
+  margin-top: 100px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgb(145, 145, 145);
+  text-align: center;
+  line-height: 1.8;
+}
+
+.itemmore ul {
+  list-style: none;
+}
+
+.itemmore .pricesubheading {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 600;
+}
+
+.valueadd {
+  margin: auto;
+  width: 70%;
+  background-color: #087f5b;
+  color: white;
+  padding: 20px;
+  margin-top: 64px;
+  border-radius: 10px;
+}
+
+
+
+.valueadd h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.valueaddul {
+  margin: auto;
+  width: 20%;
+  text-align: center;
+}
+
+.valueaddul ul {
+  list-style-position: inside;
+}
+
+
+/* Pricing PAGE END */
+
+/* Contact Us START */
+
+.contactarea {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactform {
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+
+.contactdetails {
+  margin-top: 100px;
+  width: 50%;
+}
+
+.contactdetails ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contactdetails li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #5c5c5c;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  stroke: #087f5b;
+  margin-right: 10px;
+}
+
+
+/* General form styling */
+.contactform {
+  max-width: 600px;
+  
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+
+/* Label styling */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #5c5c5c;
+}
+
+/* Input and textarea styling */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Textarea specific */
+textarea {
+  height: 150px;
+}
+
+/* Button styling */
+button {
+  background-color: #087f5b;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #065c3c;
+}
+
+
+/* Cookie Consent START*/
+
+.wrapper {
+  position: fixed;
+  bottom: 50px;
+  right: -370px;
+  max-width: 345px;
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px 25px 22px;
+  transition: right 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.wrapper.show {
+  right: 20px;
+}
+.wrapper header {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+header i {
+  color: #087f5b;
+  font-size: 32px;
+}
+.wrapper h2 {
+  color: #ffffff;
+  font-weight: 500;
+  margin-right: 50px;
+}
+.wrapper .data {
+  margin-top: 16px;
+}
+.wrapper .data p {
+  color: #333;
+  font-size: 16px;
+}
+.data p a {
+  color: #087f5b;
+  text-decoration: none;
+}
+.data p a:hover {
+  text-decoration: underline;
+}
+.wrapper .buttons {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttons .button {
+  border: none;
+  color: #fff;
+  padding: 8px 0;
+  border-radius: 4px;
+  background: #087f5b;
+  cursor: pointer;
+  width: calc(100% / 2 - 10px);
+  transition: all 0.2s ease;
+}
+.buttons #acceptBtn:hover {
+  background-color: #087f5b;
+}
+#declineBtn {
+  border: 2px solid #087f5b;
+  background-color: #fff;
+  color: #087f5b;
+}
+#declineBtn:hover {
+  background-color: #087f5b;
+  color: #fff;
+}
+
+/* Cookie Consent Form END */
 
 
 /* Media Queries for screens smaller than 500px */
