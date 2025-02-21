@@ -515,7 +515,7 @@ nav li:hover {
 
 .contactarea {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .contactform {
@@ -529,7 +529,7 @@ nav li:hover {
 
 .contactdetails {
   margin-top: 100px;
-  width: 50%;
+  width: 20%;
 }
 
 .contactdetails ul {
