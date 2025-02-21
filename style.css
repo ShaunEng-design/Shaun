@@ -529,7 +529,7 @@ nav li:hover {
 
 .contactdetails {
   margin-top: 100px;
-  width: 40%;
+  width: 50%;
 }
 
 .contactdetails ul {
@@ -692,25 +692,21 @@ header i {
   /* Header Styles */
 
   header {
-      flex-direction: column;
-      align-items: center;
       padding: 10px;
       width: 100%;
+      display: inline-block;
   }
 
   header img {
-      height: 150px;
-      position: relative;
-      left: -162px;
-      top: -10px;
+      display: none;
   }
 
   header h1 {
       font-size: 1.5rem;
       text-align: center;
       position: relative;
-      top: -140px;
-      left: 70px;
+      top: 0;
+      left: 0px;
   }
 
   header h3 {
@@ -720,8 +716,14 @@ header i {
   .under::after {
     border: solid 2px #c0eb75;
     border-color: #c0eb75 transparent transparent transparent;
-    
   }
+
+ nav {
+  width: 90%;
+  position: relative;
+  top: 0;
+  left: 20%;
+ }
 
   nav ul {
     list-style: none;
@@ -731,8 +733,6 @@ nav li {
     display: inline-block;
     text-decoration: none;
     position: relative;
-    right: -75px;
-    top: -102px;
     padding: 10px;
 }
 
@@ -749,10 +749,7 @@ nav li:hover {
   /* Hero Section */
 
   .herowrapper {
-      height: auto;
-      padding: 20px;
-      position: relative;
-      margin-bottom: -250px;
+    margin-top: -200px;
   }
 
   .herotext {
@@ -762,7 +759,7 @@ nav li:hover {
       border-radius: 15px;
       text-align: center;
       margin-top: 255px;
-      margin-left: -130px;
+      margin-left: -140px;
   }
 
   .btn {
